@@ -1,0 +1,50 @@
+Volvox_scan Release Version 1.0
+
+System Requirements:
+===================
+
+This standalone software requires only Python 3 Language installation.
+
+
+
+Basic Installation on Commandline: Unix/Linux and Mac OS
+=================================
+	
+1. Download the volvox_scan.py python code.
+2. Copy the program to your current directory or to your bin path.
+3. To run the analysis type: 
+	python3 volvox_scan.py <param-1> <param-2> ... <param-n>
+4. At the end of program execution check the "Results" folder created by the program.
+
+
+Basic Installation on Windows:
+=============================
+	
+1. Download the volvox_scan.py python code.
+2. Load or Open the volvox_scan.py program from any Python3 IDE installed on your computer system.
+3. Run the program and enter the appropriate parameters values when prompted.
+4. To use any default parameter, press the <ENTER> key, instead of entering a parameter value. 
+5. At the end of program execution check the "Results" folder created by the program.
+
+
+Test Installation: 
+=================
+1. Download the testVCFs.zip dataset.
+2. Unzip the files in the current folder or any folder of your choice.
+	unzip testVCFs.zip 
+3. Unzipping results in a testVCFs folder containing sample VCF files.
+3. Specify the path to the folder containing the created testVCFs folder during the test run.
+	Example: python3 volvox_scan.py -d testVCFs --all -q 11 -n 5 -m 250 --uniq
+  
+4. Check the "Results" folder created by the program after execution.
+
+Example Runs:
+============
+Check the README.txt file for more examples.
+
+Contact Support: 
+===============
+For further assistance e-mail: volvoxscan@gmail.com
+
+Thank You! :-)
+
